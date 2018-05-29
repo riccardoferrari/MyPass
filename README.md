@@ -1,6 +1,6 @@
 # MyPass
 
-This service help you to generate passwords
+This service helps you to generate passwords
 
 In this project i used Python and Flask microframework
 
@@ -37,6 +37,5 @@ _____________
 
 ### A special thanks to
 
-I want to thank
 - [Python Developers](https://python.org)
 - [Flask Developers](https://github.com/pallets/flask)
