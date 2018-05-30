@@ -10,3 +10,7 @@ def index():
 @app.context_processor
 def newPassword():
     return dict(mypass = password())
+
+@app.errorhandler(404)
+def error404(e):
+    return render_template('error404.html'), 404
