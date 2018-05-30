@@ -10,7 +10,7 @@ ___________________________________________
 
 ### Installation
 
-First of all install [Python] [https://python.org]
+First of all install [Python](https://python.org)
 Then from the shell type this 
 
      pip install flask==1.0.2
