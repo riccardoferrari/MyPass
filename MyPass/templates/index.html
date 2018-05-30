@@ -9,7 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,500" rel="stylesheet">
 </head>
 <body>
-    <h1> MyPass </h1>
-    <p> This is your password: {{ mypass }} </p>
+    <header class="header">
+        <a href="#" class="title"> <h1 class="title"> MyPass </h1> </a>
+        <a href="https://github.com/riccardoferrari/mypass"> Source Code </a>
+        <a class="about" href="/about"> About </a>
+    </header>
+    <p class="password-header"> This is your password:</p>
+    <p class="password">  {{ mypass }}  </p>
 </body>
 </html>
